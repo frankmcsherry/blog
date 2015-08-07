@@ -23,8 +23,11 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 #### [Differential graph computation](https://github.com/frankmcsherry/blob/master/blog/posts/2015-05-12.md)
 
-2015-05-12.
+2015-05-12. Prompted by reader questions, we take a light tour through some of the things that differential dataflow can do.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=WO23WBji_Z0
+" target="_blank"><img src="http://img.youtube.com/vi/WO23WBji_Z0/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ---
 
