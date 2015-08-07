@@ -31,7 +31,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ---
 
-#### [Abomonation: terrifying serialization](https://github.com/frankmcsherry/blob/master/blog/posts/2015-05-04.md)
+#### [Abomonation: terrifying serialization](https://github.com/frankmcsherry/blog/blob/master/posts/2015-05-04.md)
 
 ---
 
