@@ -21,7 +21,7 @@ Malte Schwarzkopf and I look in to the question of to what degree does improving
 
 ---
 
-#### [Differential graph computation](https://github.com/frankmcsherry/blob/master/blog/posts/2015-05-12.md)
+#### [Differential graph computation](https://github.com/frankmcsherry/blog/blob/master/posts/2015-05-12.md)
 
 Prompted by reader questions, we take a light tour through some of the things that differential dataflow can do.
 
