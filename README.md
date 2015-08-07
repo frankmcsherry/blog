@@ -1,25 +1,30 @@
 I am a researcher and computer scientist. I was once in San Francisco, but am now traveling.
 
-**Note**: Things may be a bit of a mess here while I de-jekyll all the previous posts. This may all go away if I find that jekyll actually did something valuable for me, but I wouldn't worry about that.
+**Note**: Things may be a bit of a mess here while I de-jekyll all the previous posts. This may all go away if I find that jekyll actually did something valuable for me, but at this point I wouldn't worry about that.
 
 
 ### Posts
 
 ---
 
-2015-07-31 [The impact of fast networks on graph analytics, part 2.](https://github.com/frankmcsherry/blog/blob/master/posts/2015-07-31.md)
+#### [The impact of fast networks on graph analytics, part 2.](https://github.com/frankmcsherry/blog/blob/master/posts/2015-07-31.md)
 
-Malte and I did a bit deeper into the sources of the performance discrepancies between GraphX and Timely dataflow. We measure a lot of things, and work through some neat time series that look like
+2015-07-31.  Malte and I did a bit deeper into the sources of the performance discrepancies between GraphX and Timely dataflow. We measure many things, and work through some neat time series that look like
 
 ![Timely](https://github.com/frankmcsherry/blog/blob/master/assets/timeseries/pagerank/timely_uk_16x8_10g/caelum-401.png)
 
 ---
 
-2015-07-08 [The impact of fast networks on graph analytics, part 1.](https://github.com/frankmcsherry/blog/blob/master/posts/2015-07-08.md)
+#### [The impact of fast networks on graph analytics, part 1.](https://github.com/frankmcsherry/blog/blob/master/posts/2015-07-08.md)
+
+2015-07-08. Malte Schwarzkopf and I look in to the question of to what degree does improving networking help in graph computation. We do some measurement, comparing a PageRan implementation in both GraphX and in Timely dataflow.
 
 ---
 
-2015-05-12 [Differential graph computation](https://github.com/frankmcsherry/blob/master/blog/posts/2015-05-12.md)
+#### [Differential graph computation](https://github.com/frankmcsherry/blob/master/blog/posts/2015-05-12.md)
+
+2015-05-12.
+
 
 ---
 
