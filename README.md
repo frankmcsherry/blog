@@ -7,6 +7,12 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 ---
 
+#### [Sorting out graph layout](https://github.com/frankmcsherry/blog/blob/master/posts/2015-08-15.md)
+
+We look at a paper from SOSP 2013, which says that perhaps you shouldn't bother sorting graph edge data, and instead should just process it in whatever order you receive it. I reach a different conclusion.
+
+---
+
 #### [The impact of fast networks on graph analytics, part 2.](https://github.com/frankmcsherry/blog/blob/master/posts/2015-07-31.md)
 
 Malte and I did a bit deeper into the sources of the performance discrepancies between GraphX and Timely dataflow. We measure many things, and work through some neat time series that look like
