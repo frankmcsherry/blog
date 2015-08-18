@@ -9,7 +9,9 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 #### [Sorting out graph layout](https://github.com/frankmcsherry/blog/blob/master/posts/2015-08-15.md)
 
-We look at a paper from SOSP 2013, which says that perhaps you shouldn't bother sorting graph edge data, and instead should just process it in whatever order you receive it. I reach a different conclusion.
+We look at a paper from SOSP 2013, which says that perhaps you shouldn't bother sorting graph edge data, and instead should just process it in whatever order you receive it.
+
+I reach a different conclusion.
 
 ---
 
