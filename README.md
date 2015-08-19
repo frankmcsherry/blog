@@ -9,7 +9,9 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 #### [Sorting out graph processing](https://github.com/frankmcsherry/blog/blob/master/posts/2015-08-15.md)
 
-We revisit the conventional wisdom that sorting is expensive, and random access is fast. In particular, if you think you might need to do a bunch of random accesses, maybe you should consider sorting the requests first. We look at some results in a paper from SOSP 2013 and see how speedy sorting algorithms likely change the trade-offs the paper proposes. Also, differential dataflow goes a lot faster as a result of this stuff, so you should read about it.
+We revisit the conventional wisdom that sorting is expensive, and random access is fast. In particular, if you think you might need to do a bunch of random accesses, maybe you should consider sorting the requests first. We look at some results in a paper from SOSP 2013 and see how speedy sorting algorithms likely change the trade-offs the paper proposes.
+
+Also, differential dataflow goes a lot faster as a result of this stuff, so you should read about it.
 
 ---
 
