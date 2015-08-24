@@ -13,7 +13,7 @@ A reader wrote in about the "Sorting out graph processing" post, with some quest
 
 The perf numbers for the system itself are not yet in (my contact is PDT), but I'll update with them as they flow in.
 
-**Update**: Numbers for Chaos on PageRank are in. Other numbers will have to wait until October, says author.
+**Update**: Numbers for PageRank on Chaos are in. Other numbers will have to wait until October, says author.
 
 ---
 
