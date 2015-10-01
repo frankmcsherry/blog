@@ -5,6 +5,13 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 ### Posts
 
+
+---
+
+#### [An introduction to Differential Dataflow, part 1](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-29.md)
+
+We are going to take a diversion from the cold reality of timely dataflow, into the fantasy world of differential dataflow, a world of lollipops and laptops where all of your big data computations instantaneously update whenever your input data change. What wonders await us in this magical world of imagination?
+
 ---
 
 #### [An introduction to Timely Dataflow in Rust, part 3](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-21.md)
