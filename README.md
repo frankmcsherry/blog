@@ -5,6 +5,11 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 ### Posts
 
+---
+
+#### [Progress tracking in Timely Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-19.md)
+
+Timely dataflow extends traditional distributed dataflow with a lightweight, asynchronous coordination mechanism: notifications. In this post we'll look in to how notifications, and progress tracking generally, work in the Rust version of timely dataflow. We'll recap a bit of what [Naiad](http://dl.acm.org/citation.cfm?id=2522738) did for progress tracking, and explain where and when we've gone in a different direction. Possibly why, if my typing is good.
 
 ---
 
