@@ -5,6 +5,13 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 ### Posts
 
+
+---
+
+#### [Graph processing in 2016](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)
+
+In which I have a bunch of opinions about all the papers I had to read, review, and listen to in the past year, and what might be productive to do differently in the coming year. This is all a bunch of opinion, with a bit of technical detail hiding behind the blather.
+
 ---
 
 #### [Progress tracking in Timely Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-19.md)
