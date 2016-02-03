@@ -8,6 +8,12 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 ---
 
+#### [Differential privacy for dummies](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-03.md)
+
+I'm back in Morocco, on my own time again, which means that I get to write whatever happens to be in my mind. Today, that was that lots of people critical of differential privacy seem to be pretty bad at ... math, writing, ... honesty. So, we have a walk-through of the sort of work that the non-technical fields publish about differential privacy, and how it has nearly no relation to reality.
+
+---
+
 #### [Graph processing in 2016](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)
 
 In which I have a bunch of opinions about all the papers I had to read, review, and listen to in the past year, and what might be productive to do differently in the coming year. This is all a bunch of opinion, with a bit of technical detail hiding behind the blather.
