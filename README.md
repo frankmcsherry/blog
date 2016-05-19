@@ -5,6 +5,13 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 ### Posts
 
+---
+
+#### [Differential privacy for dummies, redux](https://github.com/frankmcsherry/blog/blob/master/posts/2016-05-19.md)
+
+Jane Bambauer and Krish Muralidhar [blogged] about the reaction to their Fool's Gold article. In particular, [I have previously responded to it](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-03.md), and they respond to some of the issues raised there. I think they remain mostly wrong, and try to explain why in this response to their response to my response.
+
+---
 
 #### [Explaining outputs in modern computations](https://github.com/frankmcsherry/blog/blob/master/posts/2016-03-27.md) 
 
