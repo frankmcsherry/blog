@@ -1,7 +1,6 @@
 I am a researcher and computer scientist. I was once in San Francisco, but am now traveling.
 
-**Note**: Things may be a bit of a mess here while I de-jekyll all the previous posts. This may all go away if I find that jekyll actually did something valuable for me, but at this point I wouldn't worry about that.
-
+The following posts are in reverse chronological order: newest posts are first. If you are keen to follow a lower-volume repo, the `squashed` branch gets squashed merges when new posts hit. They don't get any edits until the next merge, though, so come back here for the definitive versions of text (or if you want to submit a PR).
 
 ### Posts
 
@@ -121,38 +120,58 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### [Abomonation: terrifying serialization](https://github.com/frankmcsherry/blog/blob/master/posts/2015-05-04.md)
 
+This post was so much fun to write. Also the code was fun to write. Imagine you want serialization to go as fast as possible, to still use Rust's type system, and maybe as a distant third requirement: memory safety. The approach isn't totally deranged, but please don't use it for your FinTech start-up (or at least let me short you if you do).
+
 ---
 
 #### [Data-parallelism in timely dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2015-04-19.md)
+
+Here we talk through, for the first time, how to write a data-parallel computation in timely dataflow. We use the example from the previous post: worst-case optimal joins. In cleaning up the text, I've realized that a good deal of it is out of date, so for code examples that actually work you mant want to check out the [intro to timely dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-14.md).
 
 ---
 
 #### [Worst-case optimal joins, in dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2015-04-11.md)
 
+Would you be surprised to learn that for the last 40 years databases have been performing complex joins asymptotically suboptimally? How about instead, you learn how to write worst-case optimal joins (credit to Ngo et al) in timely dataflow.
+
 ---
 
 #### [Differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2015-04-07.md)
+
+This was a warning shot to incremental computation folks that differential dataflow would ride again. It is pretty rough, though. It was mostly just about getting off the ground, and me being surprised at how simple it was to get a functional prototype up and running on top of timely dataflow infrastructure. Since this post, [differential dataflow](https://github.com/frankmcsherry/differential-dataflow) has gotten much better.
 
 ---
 
 #### [Bigger data; same laptop](https://github.com/frankmcsherry/blog/blob/master/posts/2015-02-04.md)
 
+Based on the great reaction to the COST post, and in particular questions of "is it really big data?", I went and downloaded a 1TB graph dataset from [Common Crawl](http://commoncrawl.org). Then I ran the same algorithms using this dataset, and it was totally fine and I got measurements. Given that most of the other systems go belly up on much smaller datasets, we don't have measurements for them.
+
 ---
 
 #### [Scalability! But at what COST?](https://github.com/frankmcsherry/blog/blob/master/posts/2015-01-15.md)
+
+Surprise! My laptop is faster than many compute clusters running things like Spark, Giraph, GraphLab, and GraphX. This post relates work that Michael Isard, Derek Murray, and I did trying to provide reasonable baselines for graph processing systems, where we conclude that ZOMG are the current crop of systems nowhere near what you can do with one thread and about 10-20 lines of code.
 
 ---
 
 #### [Timely dataflow: core concepts](https://github.com/frankmcsherry/blog/blob/master/posts/2014-12-29.md)
 
+An introduction to some of the key concepts in the timely dataflow rethink. Rust imposes some restrictions, but generally there are smart changes to make to how a system views hierarchical dataflow graphs, from how Naiad did it (a flat pile of nodes and edges).
+
 ---
 
 #### [Timely dataflow: reboot](https://github.com/frankmcsherry/blog/blob/master/posts/2014-12-27.md)
+
+Notes about how I'm planning on doing this timely dataflow thing again, and why it is going to wreck shit. 
 
 ---
 
 #### [Columnarization in Rust, part 2](https://github.com/frankmcsherry/blog/blob/master/posts/2014-12-16.md)
 
+Following on the previous on columnarization, we look more at how trait implementations can come into conflict, and one way to sort this out.
+
 ---
 
 #### [Columnarization in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2014-12-15.md)
+
+My first post on Rust, about a simple approach to columnar serialization using Rust traits.
