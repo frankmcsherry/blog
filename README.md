@@ -6,6 +6,12 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ---
 
+#### [Differential Dataflog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md) 
+
+Datalog is a pretty interesting language, something like a version of SQL with an iterative loop wrapped around the whole thing. It fits very nicely within [differential dataflow](https://github.com/frankmcsherry/differential-dataflow), which does all sorts of iterative data-parallel computations. In this post, we dive into some detail, and see that we can not only evaluate Datalog programs but interactively query their results.
+
+---
+
 #### [Statistical inference considered harmful](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-14.md)
 
 A Usenix Security 2014 best paper, [Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-fredrikson-privacy.pdf) has some angsty experiences with differential privacy. It turns out, from my point of view at least, that they mostly have non-concerns and should enjoy life more. And maybe put fewer pictures of dead bodies and toe-tags in their talks.
