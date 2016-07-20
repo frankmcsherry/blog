@@ -4,6 +4,13 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ### Posts
 
+
+---
+
+#### [Dataflow as Database](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-17.md) 
+
+In this post we'll look at whether dataflow programming constructs, differential dataflow in particular, can be used to effect the look and feel of a database: transactions, look-ups, schemas, durability, things like that. The answers are a mix of "yes!" and "yes! but, ...", but I hope all of them are at least a bit thought provoking.
+
 ---
 
 #### [Differential Dataflog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md) 
