@@ -50,6 +50,32 @@ Jane Bambauer and Krish Muralidhar [blogged](http://blogs.harvard.edu/infolaw/20
 
 ---
 
+---
+
+#### [Dataflow as Database](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-17.md) 
+
+In this post we'll look at whether dataflow programming constructs, differential dataflow in particular, can be used to effect the look and feel of a database: transactions, look-ups, schemas, durability, things like that. The answers are a mix of "yes!" and "yes! but, ...", but I hope all of them are at least a bit thought provoking.
+
+---
+
+#### [Differential Dataflog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md) 
+
+Datalog is a pretty interesting language, something like a version of SQL with an iterative loop wrapped around the whole thing. It fits very nicely within [differential dataflow](https://github.com/frankmcsherry/differential-dataflow), which does all sorts of iterative data-parallel computations. In this post, we dive into some detail, and see that we can not only evaluate Datalog programs but interactively query their results.
+
+---
+
+#### [Statistical inference considered harmful](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-14.md)
+
+A Usenix Security 2014 best paper, [Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing](https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-fredrikson-privacy.pdf) has some angsty experiences with differential privacy. It turns out, from my point of view at least, that they mostly have non-concerns and should enjoy life more. And maybe put fewer pictures of dead bodies and toe-tags in their talks.
+
+---
+
+#### [Differential privacy for dummies, redux](https://github.com/frankmcsherry/blog/blob/master/posts/2016-05-19.md)
+
+Jane Bambauer and Krish Muralidhar [blogged](http://blogs.harvard.edu/infolaw/2016/05/17/diffensive-privacy/) about the reaction to their Fool's Gold article. In particular, [I have previously responded to it](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-03.md), and they respond to some of the issues raised there. I think they remain mostly wrong, and try to explain why in this response to their response to my response.
+
+---
+
 #### [Explaining outputs in modern computations](https://github.com/frankmcsherry/blog/blob/master/posts/2016-03-27.md) 
 
 We look at techniques for automatically explaining individual outputs of a big data computation by using a small number of inputs. Want to know why two people are in the same connected component? How about the shortest path connecting them, answered and updated in realtime? 
