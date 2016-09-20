@@ -4,6 +4,35 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ### Posts
 
+---
+
+#### [Tracking motifs in evolving graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2016-09-17.md) 
+
+A series of posts building up to a low-latency, data-parallel, worst-case optimal throughput system for maintaining arbitrary cyclic joins. That is a mouthful, so another way to think about it is that we track triangles in social graphs, as the edges come and go. But it is way cooler than just that, and should have some cool implications for Datalog processing and maintenance. And that is like the definition of cool.
+
+---
+
+#### [Differential privacy and correlated data](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-29.md) 
+
+A recent paper determines that differential privacy fails to provide guarantees when data are correlated. This turns out to be incorrect, but understanding why leads us into an investigation of *expectations of data privacy*; what should we reasonably believe to be kept a secret when we contribute sensitive data?
+
+---
+
+#### [Lunchtime for data privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-16.md) 
+
+A post on the recently revitalized paper "no free lunch for data privacy". What does the paper mean, and what are its arguments about data privacy? My conclusion is that the authors results apply to a definition of privacy possibly distinct from what I at least view as data privacy: keeping your secrets even when you couldn't keep them yourself.
+
+---
+
+#### [Differential Dataflow internals](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-03.md) 
+
+A series of posts on the necessary internals for something like differential dataflow. This is mostly stream of consciousness, and doesn't really end. What happened was I realized where it needed to go next, that this was a bit of a pain, started to write that down but left it "in progress" as I figure out what is needed.
+
+---
+
+#### [Differential Dataflow Roadmap](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-26.md) 
+
+Some thoughts on where I would like differential dataflow to go. The short version is that it should be able to handle very fine grained updates at scale, which it doesn't currently do in any great way.
 
 ---
 
