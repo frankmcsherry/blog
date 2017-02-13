@@ -6,6 +6,18 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ---
 
+#### [Differential dataflow status report](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-11.md) 
+
+A status report on recent work on differential dataflow internals. The state management structure has been re-designed to allow more robust usage patterns, with large numbers of logical times. It also now supports a variety of new features, some of which may be useful in addition to being clever.
+
+---
+
+#### [Two flavors of differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-08.md) 
+
+A brief post describing some of my misgiving about (epsilon, delta)-differential privacy, a relaxation of the "pure" epsilon-differential privacy. Mostly, I don't understand it at an intuitive level, and I'd love folks who do to explain why I shouldn't be as worried.
+
+---
+
 #### [Tracking motifs in evolving graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2016-09-17.md) 
 
 A series of posts building up to a low-latency, data-parallel, worst-case optimal throughput system for maintaining arbitrary cyclic joins. That is a mouthful, so another way to think about it is that we track triangles in social graphs, as the edges come and go. But it is way cooler than just that, and should have some cool implications for Datalog processing and maintenance. And that is like the definition of cool.
