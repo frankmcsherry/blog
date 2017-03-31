@@ -6,6 +6,32 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ---
 
+#### [Differential dataflow 2017 roadmap](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-28.md) 
+
+In which we review challenges set out last year, mostly related to handling lots of updates scalably, and at high volume. We've got answers for the challenges, but they are preliminary and could use some performance love, so we set up the next round of challenges with respect to performance (and memory footprint).
+
+---
+
+#### [What I'm stuck on](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-22.md) 
+
+A quick little post about the problem I'm currently hitting my head against. It turns out that my head was more powerful, and the problem relented. 
+
+---
+
+#### [High-resolution timestamps](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-01.md) 
+
+An outline of how we handle high-resolution timestamps in differential dataflow, where a single timely dataflow message with a single capability can contain a large number of distinct logical times for differential dataflow. This requires a substantial re-think of many operators, multiple times it turns out.
+
+There are several addendurata post-pendulated on the ass-end of this post, reflecting bits of progress made in opposition to poor performance. 
+
+---
+
+#### [Modular data organization](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-21.md) 
+
+Rewriting the internals of differential dataflow involves thinking through a few different ways to represent data, and writing those representations out by hand repeatedly is a pain. In this post we go through how we restructure the data organization problem to produce many re-usable parts.
+
+---
+
 #### [Differential dataflow status report](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-11.md) 
 
 A status report on recent work on differential dataflow internals. The state management structure has been re-designed to allow more robust usage patterns, with large numbers of logical times. It also now supports a variety of new features, some of which may be useful in addition to being clever.
