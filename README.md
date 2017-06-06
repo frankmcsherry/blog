@@ -80,7 +80,7 @@ In this post we'll look at whether dataflow programming constructs, differential
 
 ---
 
-#### [Differential Dataflog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md) 
+#### [Differential Datalog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md) 
 
 Datalog is a pretty interesting language, something like a version of SQL with an iterative loop wrapped around the whole thing. It fits very nicely within [differential dataflow](https://github.com/frankmcsherry/differential-dataflow), which does all sorts of iterative data-parallel computations. In this post, we dive into some detail, and see that we can not only evaluate Datalog programs but interactively query their results.
 
