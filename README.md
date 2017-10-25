@@ -2,7 +2,59 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 The following posts are in reverse chronological order: newest posts are first. If you are keen to follow a lower-volume repo, the `squashed` branch gets squashed merges when new posts hit. They don't get any edits until the next merge, though, so come back here for the definitive versions of text (or if you want to submit a PR).
 
-### Posts
+---
+
+#### [COST in the land of differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-10-23.md)
+
+One month later, totally by coincidence, I make good on a promise to investigate the single-threaded time to evaluate 1,000,000 breadth-first search computations on graphs that change only slightly from one to the next. Differential dataflow is slower, of course, but with a bit of hand-holding we get it to within about 4x the time of the single-threaded implementation.
+
+---
+
+#### [COST in the land of databases](https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-23.md)
+
+In which we review three recent papers from the databases literature on graph processing, and find issues with their evaluations *again*. Each of the systems studied fails to distinguish themselves from simple single-threaded implementations written by your correspondent, and we spend a bunch of text making that point from several angles.
+
+---
+
+#### [Big Data Stream Managers (BDSM)](https://github.com/frankmcsherry/blog/blob/master/posts/2017-09-05.md)
+
+I try and make the case that "big data stream managers", something like a "database management system" for high volume streams of collection updates, makes a lot of sense, doesn't currently exist, and could if you start from differential dataflow. There is a cool [work in progress system](https://github.com/frankmcsherry/differential-dataflow/tree/master/server) that you can check out too!
+
+---
+
+#### [Live PageRanking](https://github.com/frankmcsherry/blog/blob/master/posts/2017-08-21.md)
+
+We walk through a self-contained timely dataflow example where we build a pagerank computation that adapts to changes in its input, as it runs. What results is a computation that continually takes graph changes and course-corrects in place for the new pagerank computation. A few bugs and optimizations later, and we have something that seems to churn through updates quite briskly.
+
+---
+
+#### [Memory management for big data](https://github.com/frankmcsherry/blog/blob/master/posts/2017-07-27.md)
+
+Many big data systems suffer because their underlying memory management is poor (often inherited from the JVM). In this post we'll walk through some of the issues, as well as some of the proposed solutions. I go on to claim that fast serialization can be a proxy for robust and configurable memory management, but that is certainly up for debate.
+
+---
+
+#### [Throughput and latency in differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2017-07-24.md)
+
+This post starts to study the trade-off between throughput and latency in differential dataflow, and discovers some serious performance issues. Timely dataflow itself, in fact, had some poorly implemented internals that went quadratic under heavy churn. With this fixed we start to be able to explore how open-loop evaluation (where producers are decoupled from consumers) can reveal how system design choices affect latency as well as throughput.
+
+---
+
+#### [Specialization in differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2017-05-06.md)
+
+Here we get to see a full implementation of a differential dataflow operator, for the special case of counting things that change with a totally ordered time. These simplifications make a specialized implementation tractable, and we get some decent performance improvements out of it too! This implementation lead to a specialized implementation for `distinct` as well.
+
+---
+
+#### [Arrangement in differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2017-05-01.md)
+
+Differential dataflow manages its indexed state in such a way that operators can often share the state with each other. This reduces the required resources (computation, communication, and memory), but imposes some restrictions on how we can interact with the shared state. This post starts to describe how this works (it is, even now, a work in progress).
+
+---
+
+#### [A TPC-H-like evaluation of differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2017-04-24.md)
+
+I spend a weekend implementing all 22 queries from TPCH, a data-warehousing (read: analytics) workload. This went surprisingly well, in that all the queries were relatively easy to express, and while most performed well I also got several hot tips for optimizations to perform, which then improved things further. It was a very productive weekend!
 
 ---
 
