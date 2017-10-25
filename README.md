@@ -4,7 +4,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ---
 
-#### [COST in the land of differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-10-23.md)
+#### [COST in the land of differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2017-10-23.md)
 
 One month later, totally by coincidence, I make good on a promise to investigate the single-threaded time to evaluate 1,000,000 breadth-first search computations on graphs that change only slightly from one to the next. Differential dataflow is slower, of course, but with a bit of hand-holding we get it to within about 4x the time of the single-threaded implementation.
 
