@@ -4,6 +4,18 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ---
 
+#### [Timely on Kafka](https://github.com/frankmcsherry/blog/blob/master/posts/2017-11-08.md)
+
+A quick post about round-tripping timely dataflow streams through Kafka, which recently became more performant than it was before. Other than some confusion at the start, and a performance issue in librdkafka, the experience was pleasant and I totally recommend [rust-rdkafka](https://github.com/fede1024/rust-rdkafka).
+
+---
+
+#### [Deep learnings about differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-10-27.md)
+
+We tour through two ACM CCS papers about deep learning and privacy, which each touch on differential privacy. As you might expect, I have some criticism for the work, but ideally we also learn a bit about what you should and shouldn't do with deep learning. Maybe more on the shouldn't side, really.
+
+---
+
 #### [COST in the land of differential dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2017-10-23.md)
 
 One month later, totally by coincidence, I make good on a promise to investigate the single-threaded time to evaluate 1,000,000 breadth-first search computations on graphs that change only slightly from one to the next. Differential dataflow is slower, of course, but with a bit of hand-holding we get it to within about 4x the time of the single-threaded implementation.
@@ -93,6 +105,12 @@ A status report on recent work on differential dataflow internals. The state man
 #### [Two flavors of differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-08.md) 
 
 A brief post describing some of my misgiving about (epsilon, delta)-differential privacy, a relaxation of the "pure" epsilon-differential privacy. Mostly, I don't understand it at an intuitive level, and I'd love folks who do to explain why I shouldn't be as worried.
+
+---
+
+#### [Differential privacy as a mutual information constraint](https://github.com/frankmcsherry/blog/blob/master/posts/2017-01-26.md) 
+
+We skim through a recent ACM CCS paper relating differential privacy to mutual information. While the two are certainly related, there is a reason we didn't use mutual information when it came time to pick privacy definitions, and that was because it fails to distinguish between fundamentally distinct privacy mechanisms, e.g. releasing data in the clear and not doing that.
 
 ---
 
