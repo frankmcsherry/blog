@@ -2,6 +2,45 @@ I am a researcher and computer scientist. I was once in San Francisco, but am no
 
 The following posts are in reverse chronological order: newest posts are first. If you are keen to follow a lower-volume repo, the `squashed` branch gets squashed merges when new posts hit. They don't get any edits until the next merge, though, so come back here for the definitive versions of text (or if you want to submit a PR).
 
+
+---
+
+#### [A Datalog engine in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2017-05-19.md)
+
+The Rust folks have been working on a new bit of internals for ther compiler (specifically, the "borrow checker") and have been using Datalog to describe the rules. To make it all part of their toolchain, they were keen on a Rust implementations. In this post, we'll talk through writing a simple embeddable Datalog engine, with a few optimizations.
+
+Update: The engine has been transfered to the Rust group, under the [Datafrog](https://github.com/rust-lang-nursery/datafrog) imprint.
+
+---
+
+#### [A differential dataflow query processor](https://github.com/frankmcsherry/blog/blob/master/posts/2017-05-06.md)
+
+Here we build a query processor in differential dataflow, meaning a single program that can take a query description as input and assemble a dataflow graph (in milliseconds) that can determine and maintain the query results (in more than milliseconds). This post is about how to write "general" dataflows, rather than hardwiring them in to code. Also, we go a fair bit faster than previously published work, which is always fun.
+
+---
+
+#### [Things that count](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-11.md)
+
+As part of the previous post, I mentioned some accuracy numbers from [wPINQ](http://www-bcf.usc.edu/~proserpi/wPINQ.html), a weighted extension of [Privacy Integrated Queries](https://www.microsoft.com/en-us/research/project/privacy-integrated-queries-pinq/). The most interesting of these numbers relate to *counting* things, and in this post we talk through how the wPINQ project managed to count things (produce cumulative density functions) with not unreasonable privacy and accuracy.
+
+---
+
+#### [Uber's differential privacy .. probably isn't](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-25.md)
+
+Uber and Berkeley have been shopping around some new tech for treating SQL queries with differential privacy. In this post, we look through their publication, try out some of their code, and I at least come to the conclusion that perhaps they aren't quite there yet. The publication has five (5) reproducible numbers, zero (0) of which were correctly reported.
+
+---
+
+#### [Yahoo's Steaming Benchmark](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-11.md)
+
+The Yahoo Streaming Benchmark is a pretty common way to evaluate mediocre stream processors. It is, in effect, a least common denominator benchmark, and when we peel back all of the non-stream-processing parts, we find a relatively simple core that a single processor can manage quite easily (at the rates existing distributed stream processors report).
+
+---
+
+#### [Advent of Code](https://github.com/frankmcsherry/blog/blob/master/posts/2017-12-10.md)
+
+In which our intrepid hero attempts to implement the [advent of code](https://adventofcode.com) problems in differential dataflow. The answers are not always pretty, but the goal is more to try out problems that I wouldn't normally try to solve. Eventually I become weary and stop, as too many of the problems felt like "run this weird state machine with these weird rules".
+
 ---
 
 #### [Timely on Kafka](https://github.com/frankmcsherry/blog/blob/master/posts/2017-11-08.md)
@@ -70,87 +109,87 @@ I spend a weekend implementing all 22 queries from TPCH, a data-warehousing (rea
 
 ---
 
-#### [Differential dataflow 2017 roadmap](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-28.md) 
+#### [Differential dataflow 2017 roadmap](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-28.md)
 
 In which we review challenges set out last year, mostly related to handling lots of updates scalably, and at high volume. We've got answers for the challenges, but they are preliminary and could use some performance love, so we set up the next round of challenges with respect to performance (and memory footprint).
 
 ---
 
-#### [What I'm stuck on](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-22.md) 
+#### [What I'm stuck on](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-22.md)
 
-A quick little post about the problem I'm currently hitting my head against. It turns out that my head was more powerful, and the problem relented. 
+A quick little post about the problem I'm currently hitting my head against. It turns out that my head was more powerful, and the problem relented.
 
 ---
 
-#### [High-resolution timestamps](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-01.md) 
+#### [High-resolution timestamps](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-01.md)
 
 An outline of how we handle high-resolution timestamps in differential dataflow, where a single timely dataflow message with a single capability can contain a large number of distinct logical times for differential dataflow. This requires a substantial re-think of many operators, multiple times it turns out.
 
-There are several addendurata post-pendulated on the ass-end of this post, reflecting bits of progress made in opposition to poor performance. 
+There are several addendurata post-pendulated on the ass-end of this post, reflecting bits of progress made in opposition to poor performance.
 
 ---
 
-#### [Modular data organization](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-21.md) 
+#### [Modular data organization](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-21.md)
 
 Rewriting the internals of differential dataflow involves thinking through a few different ways to represent data, and writing those representations out by hand repeatedly is a pain. In this post we go through how we restructure the data organization problem to produce many re-usable parts.
 
 ---
 
-#### [Differential dataflow status report](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-11.md) 
+#### [Differential dataflow status report](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-11.md)
 
 A status report on recent work on differential dataflow internals. The state management structure has been re-designed to allow more robust usage patterns, with large numbers of logical times. It also now supports a variety of new features, some of which may be useful in addition to being clever.
 
 ---
 
-#### [Two flavors of differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-08.md) 
+#### [Two flavors of differential privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-08.md)
 
 A brief post describing some of my misgiving about (epsilon, delta)-differential privacy, a relaxation of the "pure" epsilon-differential privacy. Mostly, I don't understand it at an intuitive level, and I'd love folks who do to explain why I shouldn't be as worried.
 
 ---
 
-#### [Differential privacy as a mutual information constraint](https://github.com/frankmcsherry/blog/blob/master/posts/2017-01-26.md) 
+#### [Differential privacy as a mutual information constraint](https://github.com/frankmcsherry/blog/blob/master/posts/2017-01-26.md)
 
 We skim through a recent ACM CCS paper relating differential privacy to mutual information. While the two are certainly related, there is a reason we didn't use mutual information when it came time to pick privacy definitions, and that was because it fails to distinguish between fundamentally distinct privacy mechanisms, e.g. releasing data in the clear and not doing that.
 
 ---
 
-#### [Tracking motifs in evolving graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2016-09-17.md) 
+#### [Tracking motifs in evolving graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2016-09-17.md)
 
 A series of posts building up to a low-latency, data-parallel, worst-case optimal throughput system for maintaining arbitrary cyclic joins. That is a mouthful, so another way to think about it is that we track triangles in social graphs, as the edges come and go. But it is way cooler than just that, and should have some cool implications for Datalog processing and maintenance. And that is like the definition of cool.
 
 ---
 
-#### [Differential privacy and correlated data](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-29.md) 
+#### [Differential privacy and correlated data](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-29.md)
 
 A recent paper determines that differential privacy fails to provide guarantees when data are correlated. This turns out to be incorrect, but understanding why leads us into an investigation of *expectations of data privacy*; what should we reasonably believe to be kept a secret when we contribute sensitive data?
 
 ---
 
-#### [Lunchtime for data privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-16.md) 
+#### [Lunchtime for data privacy](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-16.md)
 
 A post on the recently revitalized paper "no free lunch for data privacy". What does the paper mean, and what are its arguments about data privacy? My conclusion is that the authors results apply to a definition of privacy possibly distinct from what I at least view as data privacy: keeping your secrets even when you couldn't keep them yourself.
 
 ---
 
-#### [Differential Dataflow internals](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-03.md) 
+#### [Differential Dataflow internals](https://github.com/frankmcsherry/blog/blob/master/posts/2016-08-03.md)
 
 A series of posts on the necessary internals for something like differential dataflow. This is mostly stream of consciousness, and doesn't really end. What happened was I realized where it needed to go next, that this was a bit of a pain, started to write that down but left it "in progress" as I figure out what is needed.
 
 ---
 
-#### [Differential Dataflow Roadmap](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-26.md) 
+#### [Differential Dataflow Roadmap](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-26.md)
 
 Some thoughts on where I would like differential dataflow to go. The short version is that it should be able to handle very fine grained updates at scale, which it doesn't currently do in any great way.
 
 ---
 
-#### [Dataflow as Database](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-17.md) 
+#### [Dataflow as Database](https://github.com/frankmcsherry/blog/blob/master/posts/2016-07-17.md)
 
 In this post we'll look at whether dataflow programming constructs, differential dataflow in particular, can be used to effect the look and feel of a database: transactions, look-ups, schemas, durability, things like that. The answers are a mix of "yes!" and "yes! but, ...", but I hope all of them are at least a bit thought provoking.
 
 ---
 
-#### [Differential Dataflog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md) 
+#### [Differential Dataflog](https://github.com/frankmcsherry/blog/blob/master/posts/2016-06-21.md)
 
 Datalog is a pretty interesting language, something like a version of SQL with an iterative loop wrapped around the whole thing. It fits very nicely within [differential dataflow](https://github.com/frankmcsherry/differential-dataflow), which does all sorts of iterative data-parallel computations. In this post, we dive into some detail, and see that we can not only evaluate Datalog programs but interactively query their results.
 
@@ -168,15 +207,15 @@ Jane Bambauer and Krish Muralidhar [blogged](http://blogs.harvard.edu/infolaw/20
 
 ---
 
-#### [Explaining outputs in modern computations](https://github.com/frankmcsherry/blog/blob/master/posts/2016-03-27.md) 
+#### [Explaining outputs in modern computations](https://github.com/frankmcsherry/blog/blob/master/posts/2016-03-27.md)
 
-We look at techniques for automatically explaining individual outputs of a big data computation by using a small number of inputs. Want to know why two people are in the same connected component? How about the shortest path connecting them, answered and updated in realtime? 
+We look at techniques for automatically explaining individual outputs of a big data computation by using a small number of inputs. Want to know why two people are in the same connected component? How about the shortest path connecting them, answered and updated in realtime?
 
 ---
 
 #### [Differential privacy: an illustrated primer](https://github.com/frankmcsherry/blog/blob/master/posts/2016-02-06.md)
 
-A hands-on introduction to differential privacy, meant to help out folks who aren't really sure where to start but don't want to stop at just counting things. 
+A hands-on introduction to differential privacy, meant to help out folks who aren't really sure where to start but don't want to stop at just counting things.
 
 ---
 
@@ -200,9 +239,9 @@ Timely dataflow extends traditional distributed dataflow with a lightweight, asy
 
 #### [An introduction to Differential Dataflow, part 2](https://github.com/frankmcsherry/blog/blob/master/posts/2015-11-27.md)
 
-Let's look a bit more at differential dataflow, and start to work through some of the details about how it works. Where does the magic come from? How does differential dataflow manage to efficiently update complex iterative dataflows without redoing all sorts of work? Where will you finally be able to apply your understanding of [Moebius inversion](https://en.wikipedia.org/wiki/Möbius_inversion_formula)? 
+Let's look a bit more at differential dataflow, and start to work through some of the details about how it works. Where does the magic come from? How does differential dataflow manage to efficiently update complex iterative dataflows without redoing all sorts of work? Where will you finally be able to apply your understanding of [Moebius inversion](https://en.wikipedia.org/wiki/Möbius_inversion_formula)?
 
-Learn how math actually makes computers go faster. 
+Learn how math actually makes computers go faster.
 
 ---
 
@@ -318,7 +357,7 @@ An introduction to some of the key concepts in the timely dataflow rethink. Rust
 
 #### [Timely dataflow: reboot](https://github.com/frankmcsherry/blog/blob/master/posts/2014-12-27.md)
 
-Notes about how I'm planning on doing this timely dataflow thing again, and why it is going to wreck shit. 
+Notes about how I'm planning on doing this timely dataflow thing again, and why it is going to wreck shit.
 
 ---
 
