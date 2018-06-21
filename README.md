@@ -5,7 +5,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 ---
 
-#### [A Datalog engine in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2017-05-19.md)
+#### [A Datalog engine in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2018-05-19.md)
 
 The Rust folks have been working on a new bit of internals for ther compiler (specifically, the "borrow checker") and have been using Datalog to describe the rules. To make it all part of their toolchain, they were keen on a Rust implementations. In this post, we'll talk through writing a simple embeddable Datalog engine, with a few optimizations.
 
@@ -13,25 +13,25 @@ Update: The engine has been transfered to the Rust group, under the [Datafrog](h
 
 ---
 
-#### [A differential dataflow query processor](https://github.com/frankmcsherry/blog/blob/master/posts/2017-05-06.md)
+#### [A differential dataflow query processor](https://github.com/frankmcsherry/blog/blob/master/posts/2018-05-06.md)
 
 Here we build a query processor in differential dataflow, meaning a single program that can take a query description as input and assemble a dataflow graph (in milliseconds) that can determine and maintain the query results (in more than milliseconds). This post is about how to write "general" dataflows, rather than hardwiring them in to code. Also, we go a fair bit faster than previously published work, which is always fun.
 
 ---
 
-#### [Things that count](https://github.com/frankmcsherry/blog/blob/master/posts/2017-03-11.md)
+#### [Things that count](https://github.com/frankmcsherry/blog/blob/master/posts/2018-03-11.md)
 
 As part of the previous post, I mentioned some accuracy numbers from [wPINQ](http://www-bcf.usc.edu/~proserpi/wPINQ.html), a weighted extension of [Privacy Integrated Queries](https://www.microsoft.com/en-us/research/project/privacy-integrated-queries-pinq/). The most interesting of these numbers relate to *counting* things, and in this post we talk through how the wPINQ project managed to count things (produce cumulative density functions) with not unreasonable privacy and accuracy.
 
 ---
 
-#### [Uber's differential privacy .. probably isn't](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-25.md)
+#### [Uber's differential privacy .. probably isn't](https://github.com/frankmcsherry/blog/blob/master/posts/2018-02-25.md)
 
 Uber and Berkeley have been shopping around some new tech for treating SQL queries with differential privacy. In this post, we look through their publication, try out some of their code, and I at least come to the conclusion that perhaps they aren't quite there yet. The publication has five (5) reproducible numbers, zero (0) of which were correctly reported.
 
 ---
 
-#### [Yahoo's Steaming Benchmark](https://github.com/frankmcsherry/blog/blob/master/posts/2017-02-11.md)
+#### [Yahoo's Steaming Benchmark](https://github.com/frankmcsherry/blog/blob/master/posts/2018-02-11.md)
 
 The Yahoo Streaming Benchmark is a pretty common way to evaluate mediocre stream processors. It is, in effect, a least common denominator benchmark, and when we peel back all of the non-stream-processing parts, we find a relatively simple core that a single processor can manage quite easily (at the rates existing distributed stream processors report).
 
