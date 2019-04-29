@@ -1,6 +1,6 @@
-I am a researcher and computer scientist. I was once in San Francisco, but am now traveling.
+I am a researcher and computer scientist. I used to work in San Francisco, then I traveled a bit, and I'm now in NYC starting [Materialize.io](http://materialize.io/).
 
-The following posts are in reverse chronological order: newest posts are first. If you are keen to follow a lower-volume repo, the `squashed` branch gets squashed merges when new posts hit. They don't get any edits until the next merge, though, so come back here for the definitive versions of text (or if you want to submit a PR).
+The following posts are in reverse chronological order: newest posts are first. There are often newer posts in the [posts directory](https://github.com/frankmcsherry/blog/tree/master/posts) that haven't been added to the main page yet. There are also old posts whose content is no longer correct (mostly about pieces of software I've worked on, and their state at some time in the past).
 
 
 ---
