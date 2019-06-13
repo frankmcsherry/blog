@@ -6,6 +6,8 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Differential | 2019-06-13 | [LDBC BI Query 25, developed](https://github.com/frankmcsherry/blog/blob/master/posts/2019-06-13.md)
+| Differential | 2019-05-20 | [Programming with time](https://github.com/frankmcsherry/blog/blob/master/posts/2019-05-20.md) |
 | Privacy | 2019-04-12 | [Differential privacy and Demographics](https://github.com/frankmcsherry/blog/blob/master/posts/2019-04-12.md) |
 | Differential | 2019-02-09 | [Monoids and Graph Processing](https://github.com/frankmcsherry/blog/blob/master/posts/2019-02-09.md) |
 | Differential | 2018-12-30 | [Tensorflow in Differential Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2018-12-30.md) |
