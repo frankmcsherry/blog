@@ -6,6 +6,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Materialize  | 2019-08-03 | [Debugging dataflows with `materialized`](https://github.com/frankmcsherry/blog/blob/master/posts/2019-08-03.md)
 | Differential | 2019-06-13 | [LDBC BI Query 25, developed](https://github.com/frankmcsherry/blog/blob/master/posts/2019-06-13.md)
 | Differential | 2019-05-20 | [Programming with time](https://github.com/frankmcsherry/blog/blob/master/posts/2019-05-20.md) |
 | Privacy | 2019-04-12 | [Differential privacy and Demographics](https://github.com/frankmcsherry/blog/blob/master/posts/2019-04-12.md) |
