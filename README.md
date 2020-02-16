@@ -6,6 +6,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Differential  | 2020-02-15 | [Differential Dataflow and Calculus](https://github.com/frankmcsherry/blog/blob/master/posts/2020-02-15.md)
 | Datalog, Differential  | 2019-09-06 | [Datalog at SIGMOD and VLDB](https://github.com/frankmcsherry/blog/blob/master/posts/2019-09-06.md)
 | Timely | 2019-08-17 | [Tracking progress in timely dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2019-08-17.md)
 | Materialize  | 2019-08-03 | [Debugging dataflows with `materialized`](https://github.com/frankmcsherry/blog/blob/master/posts/2019-08-03.md)
