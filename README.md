@@ -6,6 +6,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Timely,Differential | 2020-05-01 | [Rust for Data-Intensive Computation](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-09.md)
 | Differential | 2020-05-01 | [Managing Memory in Differential Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2020-05-01.md)
 | Differential | 2020-03-26 | [Upserts in Differential Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2020-03-26.md)
 | Materialize  | 2020-03-16 | [Materialize on NYC taxi data](https://github.com/frankmcsherry/blog/blob/master/posts/2020-03-16.md)
