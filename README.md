@@ -8,7 +8,6 @@ The following posts are in reverse chronological order: newest posts are first. 
 |:-------|:-----|:------|
 | Differential | 2020-08-13 | [Lateral Joins and Demand-Driven Queries](https://github.com/frankmcsherry/blog/blob/master/posts/2020-08-13.md)
 | Differential | 2020-08-01 | [Change Data Capture (part 1)](https://github.com/frankmcsherry/blog/blob/master/posts/2020-08-01.md)
-| Differential | 2020-04-01 | [Change Data Capture (part 1)](https://github.com/frankmcsherry/blog/blob/master/posts/2020-08-01.md)
 | Materialize | 2020-04-01 | [Robust Reductions in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-04-01.md)
 | Materialize | 2020-06-19 | [Eventual Consistency isn't for Streaming](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-19.md)
 | Timely,Differential | 2020-06-09 | [Rust for Data-Intensive Computation](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-09.md)
