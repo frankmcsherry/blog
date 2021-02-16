@@ -6,6 +6,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Materialize | 2021-02-11 | [Windows enough, and Time](https://github.com/frankmcsherry/blog/blob/master/posts/2021-02-11.md)
 | Materialize | 2020-12-29 | [Slicing up Temporal Aggregates in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-12-29.md)
 | Materialize | 2020-11-18 | [Joins in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-11-18.md)
 | Materialize | 2020-09-24 | [Materialize Under the Hood](https://github.com/frankmcsherry/blog/blob/master/posts/2020-09-24.md)
