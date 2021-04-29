@@ -1,11 +1,12 @@
 I am a researcher and computer scientist. I used to work in San Francisco, then I traveled a bit, and I'm now in NYC starting [Materialize.io](http://materialize.io/).
 
-The following posts are in reverse chronological order: newest posts are first. The content of the oldest posts may no longer be correct (mostly those about pieces of software I've worked on, and their state at some time in the past), but they have been retain for posterity (and some humility).
+The following posts are in reverse chronological order: newest posts are first. The content of the oldest posts may no longer be correct (mostly those about pieces of software I've worked on, and their state at some time in the past), but they have been retained for posterity (and some humility).
 
 ---
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Differential | 2021-04-26 | [Generalizing Linear Operators](https://github.com/frankmcsherry/blog/blob/master/posts/2021-04-26.md)
 | Materialize | 2021-02-11 | [Windows enough, and Time](https://github.com/frankmcsherry/blog/blob/master/posts/2021-02-11.md)
 | Materialize | 2020-12-29 | [Slicing up Temporal Aggregates in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-12-29.md)
 | Materialize | 2020-11-18 | [Joins in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-11-18.md)
