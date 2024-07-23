@@ -6,6 +6,21 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Materialize | 2023-05-19 | [Demonstrating Operational Data with SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2023-05-19.md)
+| Materialize | 2023-03-18 | [Computing and Maintaining Weird (Outer) Joins](https://github.com/frankmcsherry/blog/blob/master/posts/2023-03-18.md)
+| Materialize | 2023-01-02 | [Materialize and Advent of Code (50/50)](https://github.com/frankmcsherry/blog/blob/master/posts/2023-01-02.md)
+| Materialize | 2023-12-20 | [Materialize and Memory](https://github.com/frankmcsherry/blog/blob/master/posts/2023-12-20.md)
+| Materialize | 2023-12-19 | [Doing Business with Recursive SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2023-12-19.md)
+| Materialize | 2023-10-10 | [Responsiveness and Operational Agility](https://github.com/frankmcsherry/blog/blob/master/posts/2023-10-10.md)
+| Materialize | 2023-09-29 | [Freshness and Operational Autonomy](https://github.com/frankmcsherry/blog/blob/master/posts/2023-09-29.md)
+| Materialize | 2023-09-19 | [Consistency and Operational Confidence](https://github.com/frankmcsherry/blog/blob/master/posts/2023-09-19.md)
+| Materialize | 2023-09-17 | [A Guided Tour of Materialize's Product Principles](https://github.com/frankmcsherry/blog/blob/master/posts/2023-09-17.md)
+| Materialize | 2023-07-21 | [Capturing Change Data Capture (CDC) Data](https://github.com/frankmcsherry/blog/blob/master/posts/2023-07-21.md)
+| Materialize | 2023-01-04 | [Advent of Code 2022: In SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2023-01-04.md)
+| Materialize | 2022-12-28 | [Reasons for Recursion](https://github.com/frankmcsherry/blog/blob/master/posts/2022-12-28.md)
+| Materialize | 2022-12-25 | [Recursion in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2022-12-25.md)
+| Materialize | 2022-07-06 | [Minesweeping in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2022-07-06.md)
+| Materialize | 2021-05-14 | [Maintaining Joins using Few Resources](https://github.com/frankmcsherry/blog/blob/master/posts/2021-05-14.md)
 | Differential | 2021-04-26 | [Generalizing Linear Operators](https://github.com/frankmcsherry/blog/blob/master/posts/2021-04-26.md)
 | Materialize | 2021-02-11 | [Windows enough, and Time](https://github.com/frankmcsherry/blog/blob/master/posts/2021-02-11.md)
 | Materialize | 2020-12-29 | [Slicing up Temporal Aggregates in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-12-29.md)
