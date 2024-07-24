@@ -6,9 +6,9 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
-| Materialize | 2023-05-19 | [Demonstrating Operational Data with SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2023-05-19.md)
-| Materialize | 2023-03-18 | [Computing and Maintaining Weird (Outer) Joins](https://github.com/frankmcsherry/blog/blob/master/posts/2023-03-18.md)
-| Materialize | 2023-01-02 | [Materialize and Advent of Code (50/50)](https://github.com/frankmcsherry/blog/blob/master/posts/2023-01-02.md)
+| Materialize | 2024-05-19 | [Demonstrating Operational Data with SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2024-05-19.md)
+| Materialize | 2024-03-18 | [Computing and Maintaining Weird (Outer) Joins](https://github.com/frankmcsherry/blog/blob/master/posts/2024-03-18.md)
+| Materialize | 2024-01-02 | [Materialize and Advent of Code (50/50)](https://github.com/frankmcsherry/blog/blob/master/posts/2024-01-02.md)
 | Materialize | 2023-12-20 | [Materialize and Memory](https://github.com/frankmcsherry/blog/blob/master/posts/2023-12-20.md)
 | Materialize | 2023-12-19 | [Doing Business with Recursive SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2023-12-19.md)
 | Materialize | 2023-10-10 | [Responsiveness and Operational Agility](https://github.com/frankmcsherry/blog/blob/master/posts/2023-10-10.md)
