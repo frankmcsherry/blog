@@ -6,6 +6,13 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
+| Materialize | 2024-11-25 | [Understanding E-Graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2024-11-25.md)
+| E-Graphs | 2024-10-19 | [Understanding E-Graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2024-10-19.md)
+| Columnar, Timely | 2024-10-11 | [Dataflow and Columns and WASM, Oh My!](https://github.com/frankmcsherry/blog/blob/master/posts/2024-10-11.md)
+| Columnar | 2024-09-10 | [A Fascinating Diversion into Compression](https://github.com/frankmcsherry/blog/blob/master/posts/2024-09-10.md)
+| Columnar | 2024-08-25 | [More serial layout in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2024-08-25.md)
+| Columnar | 2024-08-24 | [A less unsafe serial layout in Rust](https://github.com/frankmcsherry/blog/blob/master/posts/2024-08-24.md)
+| Materialize | 2024-08-13 | [Zero-staleness: Like using your primary, but faster](https://github.com/frankmcsherry/blog/blob/master/posts/2024-08-13.md)
 | Materialize | 2024-05-19 | [Demonstrating Operational Data with SQL](https://github.com/frankmcsherry/blog/blob/master/posts/2024-05-19.md)
 | Materialize | 2024-03-18 | [Computing and Maintaining Weird (Outer) Joins](https://github.com/frankmcsherry/blog/blob/master/posts/2024-03-18.md)
 | Materialize | 2024-01-02 | [Materialize and Advent of Code (50/50)](https://github.com/frankmcsherry/blog/blob/master/posts/2024-01-02.md)
@@ -30,7 +37,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 | Differential | 2020-08-01 | [Change Data Capture (part 1)](https://github.com/frankmcsherry/blog/blob/master/posts/2020-08-01.md)
 | Materialize | 2020-04-01 | [Robust Reductions in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2020-04-01.md)
 | Materialize | 2020-06-19 | [Eventual Consistency isn't for Streaming](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-19.md)
-| Timely,Differential | 2020-06-09 | [Rust for Data-Intensive Computation](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-09.md)
+| Timely, Differential | 2020-06-09 | [Rust for Data-Intensive Computation](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-09.md)
 | Differential | 2020-06-06 | [Sudoku in Differential Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-06.md)
 | Differential | 2020-05-01 | [Managing Memory in Differential Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2020-05-01.md)
 | Differential | 2020-03-26 | [Upserts in Differential Dataflow](https://github.com/frankmcsherry/blog/blob/master/posts/2020-03-26.md)
