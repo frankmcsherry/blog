@@ -6,7 +6,7 @@ The following posts are in reverse chronological order: newest posts are first. 
 
 | topics | date | title |
 |:-------|:-----|:------|
-| Materialize | 2024-11-25 | [Understanding E-Graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2024-11-25.md)
+| Materialize | 2024-11-25 | [Understanding Consistency in Materialize](https://github.com/frankmcsherry/blog/blob/master/posts/2024-11-25.md)
 | E-Graphs | 2024-10-19 | [Understanding E-Graphs](https://github.com/frankmcsherry/blog/blob/master/posts/2024-10-19.md)
 | Columnar, Timely | 2024-10-11 | [Dataflow and Columns and WASM, Oh My!](https://github.com/frankmcsherry/blog/blob/master/posts/2024-10-11.md)
 | Columnar | 2024-09-10 | [A Fascinating Diversion into Compression](https://github.com/frankmcsherry/blog/blob/master/posts/2024-09-10.md)
